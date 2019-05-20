@@ -94,15 +94,15 @@ void setup()
 	pinMode(PWM_L, OUTPUT);
 	pinMode(IN1_L, OUTPUT);			//IN1&IN2,01 forward,10 backward
 	pinMode(IN2_L, OUTPUT);
-  pinMode(PWM_R, OUTPUT);
-  pinMode(IN1_R, OUTPUT);     //IN1&IN2,01 forward,10 backward
-  pinMode(IN2_R, OUTPUT);
+	pinMode(PWM_R, OUTPUT);
+	pinMode(IN1_R, OUTPUT);     //IN1&IN2,01 forward,10 backward
+	pinMode(IN2_R, OUTPUT);
 	analogWrite(PWM_L, 0);
 	digitalWrite(IN1_L, LOW);
 	digitalWrite(IN2_L, LOW);
-  analogWrite(PWM_R, 0);
-  digitalWrite(IN1_R, LOW);
-  digitalWrite(IN2_R, LOW);
+	analogWrite(PWM_R, 0);
+	digitalWrite(IN1_R, LOW);
+	digitalWrite(IN2_R, LOW);
 
 	Wire.begin();
 	Serial.begin(9600);
